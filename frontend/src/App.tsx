@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import appScreenshot from "./assets/gc-magazine.jpg";
 
 const apkDownloadUrl =
-  "https://drive.google.com/file/d/1b6jeJqeaRy-xMA1T8aaN0i7hyH8uc9SS/view?usp=drive_link";
+  "https://drive.google.com/file/d/1b6jeJqeaRy-xMA1T8aaN0i7hyH8uc9SS/view?usp=sharing";
 
 export default function App() {
   return (
