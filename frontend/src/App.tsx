@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import appScreenshot from "./assets/gc-magazine.jpg";
 
 const apkDownloadUrl =
-  "https://drive.google.com/uc?export=download&id=1b6jeJqeaRy-xMA1T8aaN0i7hyH8uc9SS";
+  "https://github.com/girmatesfaye/GC-Magazine-website/releases/download/untagged-298b63c3707ad3ded946/GC-Magazine.2.apk";
 
 export default function App() {
   return (
