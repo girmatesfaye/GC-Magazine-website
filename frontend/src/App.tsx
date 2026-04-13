@@ -4,8 +4,8 @@
  */
 
 import { motion } from "motion/react";
-import { Instagram, Twitter, Facebook, Github, Play, ChevronRight } from "lucide-react";
-import appScreenshot from "./gc-magazine.jpg";
+import { Instagram, Twitter, Facebook, Github } from "lucide-react";
+import appScreenshot from "./assets/gc-magazine.jpg";
 
 export default function App() {
   return (
