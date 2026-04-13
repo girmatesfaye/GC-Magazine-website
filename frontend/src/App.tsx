@@ -4,7 +4,7 @@
  */
 
 import { motion } from "motion/react";
-import { Instagram, Twitter, Facebook, Github } from "lucide-react";
+
 import appScreenshot from "./assets/gc-magazine.jpg";
 
 export default function App() {
@@ -115,21 +115,19 @@ export default function App() {
 
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-5">
-              <a className="text-on-surface-variant hover:text-primary transition-all" href="#" aria-label="Instagram">
-                <Instagram className="w-4 h-4" />
+              <a className="text-on-surface-variant hover:text-primary transition-all" href="https://t.me/girma_thoughts" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+                <svg className="w-4 h-4" role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>
               </a>
-              <a className="text-on-surface-variant hover:text-primary transition-all" href="#" aria-label="Twitter">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a className="text-on-surface-variant hover:text-primary transition-all" href="#" aria-label="Facebook">
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a className="text-on-surface-variant hover:text-primary transition-all" href="#" aria-label="GitHub">
-                <Github className="w-4 h-4" />
+              <a className="text-on-surface-variant hover:text-primary transition-all" href="https://tiktok.com/" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+                <svg className="w-4 h-4" role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.22-2.45.92-4.94 2.88-6.18 1.25-.8 2.71-1.16 4.19-1.12v4.09c-1.32-.1-2.59.4-3.37 1.34-.69.83-.92 2-.6 3.05.3.93 1.05 1.65 1.96 1.96.95.31 2.05.2 2.9-.3 1.15-.67 1.83-1.95 1.79-3.28V0h3.58z" />
+                </svg>
               </a>
             </div>
             <div className="text-[10px] text-on-surface-variant opacity-40 font-bold italic tracking-widest font-headline">
-              © 2026 GRADECHO.
+              © 2026 GC Magazine.
             </div>
           </div>
         </div>
