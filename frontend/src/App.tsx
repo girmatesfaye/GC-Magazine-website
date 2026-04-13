@@ -1,6 +1,9 @@
 import { motion } from "motion/react";
 import appScreenshot from "./assets/gc-magazine.jpg";
 
+const apkDownloadUrl =
+  "https://drive.google.com/uc?export=download&id=1b6jeJqeaRy-xMA1T8aaN0i7hyH8uc9SS";
+
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-surface text-on-surface selection:bg-primary selection:text-on-primary font-body">
@@ -11,9 +14,12 @@ export default function App() {
             GC Magazine
           </div>
           <div className="flex items-center gap-4">
-            <button className="gold-gradient text-on-primary px-5 py-1.5 rounded-full font-bold text-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer shadow-[0_0_15px_rgba(255,215,0,0.15)] font-headline ">
+            <a
+              className="gold-gradient text-on-primary px-5 py-1.5 rounded-full font-bold text-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer shadow-[0_0_15px_rgba(255,215,0,0.15)] font-headline inline-flex items-center"
+              href={apkDownloadUrl}
+            >
               Download App
-            </button>
+            </a>
           </div>
         </nav>
       </header>
@@ -52,7 +58,7 @@ export default function App() {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <a href="./assets/gc-magazine.apk" download>
+                <a href={apkDownloadUrl}>
                   <button className="gold-gradient text-on-primary px-8 py-3 rounded-full font-bold text-base transition-all hover:shadow-[0_0_25px_rgba(255,215,0,0.25)] hover:-translate-y-0.5 cursor-pointer">
                     Download
                   </button>
