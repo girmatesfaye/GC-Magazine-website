@@ -1,10 +1,4 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { motion } from "motion/react";
-
 import appScreenshot from "./assets/gc-magazine.jpg";
 
 export default function App() {
