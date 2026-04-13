@@ -69,11 +69,11 @@ export default function App() {
                   <div className="text-xs text-on-surface-variant font-accent uppercase tracking-wider">Graduates</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-headline text-primary">4.9/5</div>
+                  <div className="text-2xl font-headline text-primary">4.5/5</div>
                   <div className="text-xs text-on-surface-variant font-accent uppercase tracking-wider">Rating</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-headline text-primary">40+</div>
+                  <div className="text-2xl font-headline text-primary">30+</div>
                   <div className="text-xs text-on-surface-variant font-accent uppercase tracking-wider">Universities</div>
                 </div>
               </div>
