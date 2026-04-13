@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rochester&display=swap');
+
+@theme {
+  --font-headline: "Cormorant Garamond", serif;
+  --font-body: "Lexend", sans-serif;
+  --font-fun: "Rochester", cursive;
+  --font-accent: "Nunito", sans-serif;
+
+  --color-primary: #ffd700;
+  --color-primary-container: #e9c176;
+  --color-secondary: #defcff;
+  --color-tertiary: #d0c6ab;
+  
+  --color-surface: #131313;
+  --color-on-surface: #fff6df;
+  --color-on-surface-variant: #d0c6ab;
+  
+  --color-surface-container-lowest: #0a0a0a;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  
+  --color-on-primary: #131313;
+  --color-on-secondary: #131313;
+  --color-on-tertiary: #131313;
+
+  --color-secondary-fixed: #e9c176;
+  --color-on-secondary-fixed: #131313;
+  
+  --color-outline-variant: #353534;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body;
+  }
+}
+
+.glass-panel {
+  @apply bg-surface-container-high/40 backdrop-blur-xl border border-white/10;
+}
+
+.gold-gradient {
+  @apply bg-gradient-to-br from-[#ffd700] via-[#e9c176] to-[#ffd700];
+}
+
+.editorial-mask {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
