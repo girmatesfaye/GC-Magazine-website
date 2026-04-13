@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import appScreenshot from "./assets/gc-magazine.jpg";
 
 const apkDownloadUrl =
-  "https://github.com/girmatesfaye/GC-Magazine-website/releases/download/v1.0.0/GC-Magazine.2.apk";
+  "https://drive.google.com/file/d/1b6jeJqeaRy-xMA1T8aaN0i7hyH8uc9SS/view?usp=drive_link";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
               className="gold-gradient text-on-primary px-5 py-1.5 rounded-full font-bold text-xs transition-transform hover:scale-105 active:scale-95 cursor-pointer shadow-[0_0_15px_rgba(255,215,0,0.15)] font-headline inline-flex items-center"
               href={apkDownloadUrl}
             >
-              Download App
+              Download
             </a>
           </div>
         </nav>
